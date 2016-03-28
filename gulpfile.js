@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 gulp.task('webserver', function() {
   connect.server({
     livereload: true,
-    fallback: "d3ia.html"
+    fallback: "ch2.html"
   });
 });
  
