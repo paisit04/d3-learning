@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 gulp.task('webserver', function() {
   connect.server({
     livereload: true,
-    fallback: "ch2.html"
+    fallback: "boxplots.html"
   });
 });
  
